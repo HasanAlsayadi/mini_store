@@ -1,5 +1,6 @@
 <p align="center">
   <img src="flutter_01.png" alt="Mini Store Banner" width="120"/>
+    <img src="flutter_02.png" alt="Mini Store Banner" width="120"/>
 </p>
 
 <h1 align="center">🛍️ Mini Store — ميني ستور</h1>
