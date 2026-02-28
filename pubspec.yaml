@@ -1,0 +1,58 @@
+name: mini_store
+description: "متجر صغير - تطبيق متجر إلكتروني مبني بفلاتر"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+
+  # Networking
+  dio: ^5.7.0
+
+  # Dependency Injection
+  get_it: ^8.0.3
+
+  # Local Storage
+  shared_preferences: ^2.3.4
+
+  # Functional Programming (Either type)
+  dartz: ^0.10.1
+
+  # UI / UX
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+  flutter_staggered_animations: ^1.1.1
+  animate_do: ^3.3.4
+  pinput: ^5.0.1
+  intl_phone_field: ^3.2.0
+  flutter_rating_bar: ^4.0.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
