@@ -71,6 +71,12 @@ class _OtpScreenState extends State<OtpScreen> {
 
     return BlocListener<AuthCubit, AuthState>(
       listener: (context, state) {
+        if (state.status == AuthStatus.authenticated) {
+          // Pop all pushed routes so the HomeScreen (from app.dart) is revealed
+          Navigator.of(context).popUntil((route) => route.isFirst);
+          return;
+        }
+
         if (state.status == AuthStatus.error && state.errorMessage != null) {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(

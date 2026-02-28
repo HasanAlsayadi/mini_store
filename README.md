@@ -285,11 +285,6 @@ Contributions are welcome! Please follow these steps:
 - Use the project's `analysis_options.yaml` for linting rules
 - Keep all strings centralized in `AppStrings`
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
